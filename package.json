@@ -1,28 +1,28 @@
 {
-  "name": "tabby-cat-engine",
-  "version": "0.0.1",
-  "description": "2D game engine",
-  "keywords": [
-    "2d",
-    "game-engine",
-    "javascript"
-  ],
-  "homepage": "https://github.com/DrumRack/tabby-cat-engine#readme",
-  "bugs": {
-    "url": "https://github.com/DrumRack/tabby-cat-engine/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DrumRack/tabby-cat-engine.git"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Mikhail Kolesnikov",
-    "email": "redrumrack@gmail.com"
-  },
-  "type": "module",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  }
+    "name": "tabby-cat-engine",
+    "version": "0.0.1",
+    "description": "2D game engine",
+    "keywords": [
+        "2d",
+        "game-engine",
+        "javascript"
+    ],
+    "homepage": "https://github.com/DrumRack/tabby-cat-engine#readme",
+    "bugs": {
+        "url": "https://github.com/DrumRack/tabby-cat-engine/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DrumRack/tabby-cat-engine.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Mikhail Kolesnikov",
+        "email": "redrumrack@gmail.com"
+    },
+    "type": "module",
+    "main": "lib/index.js",
+    "directories": {
+        "lib": "lib"
+    }
 }
