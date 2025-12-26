@@ -1,5 +1,8 @@
 export class Core {
     #lastTimestamp
+    screen
+    scene
+    input
 
     setScreen(screen) {
         this.screen = screen

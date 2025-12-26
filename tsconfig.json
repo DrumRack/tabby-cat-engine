@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "outDir": "lib",
-        "target": "esnext",
-        "allowJs": true
+        "target": "esnext"
     }
 }

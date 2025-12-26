@@ -1,4 +1,7 @@
 export class Screen {
+    canvas
+    context
+    
     constructor(canvas) {
         if (!(canvas instanceof HTMLCanvasElement)) {
             throw new Error('Screen requires a valid HTMLCanvasElement')

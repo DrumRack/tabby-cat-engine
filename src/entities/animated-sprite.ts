@@ -7,6 +7,8 @@ export class AnimatedSprite extends Sprite {
     #finished = false
     #frames
     #running
+    speed
+    repeat
 
     constructor({image, frames, speed, autorun = false, repeat = true, width, height}) {
         super({

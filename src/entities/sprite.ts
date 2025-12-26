@@ -1,6 +1,12 @@
 import {Renderable} from './renderable.js'
 
 export class Sprite extends Renderable {
+    image
+    sourceX
+    sourceY
+    width
+    height
+    
     constructor({image, sourceX, sourceY, width, height}) {
         super()
         this.image = image

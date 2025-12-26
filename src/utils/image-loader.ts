@@ -15,7 +15,7 @@ export class ImageLoader {
     }
 
     #loadImage(name, src) {
-        return new Promise((resolve, reject) => {
+        return new Promise<void>((resolve, reject) => {
             const image = new Image()
             image.onload = () => {
                 this.images[name] = image

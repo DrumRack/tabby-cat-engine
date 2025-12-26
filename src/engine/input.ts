@@ -1,4 +1,5 @@
 export class Input {
+    static preventKeysSet
     keys = {}
 
     static preventKeys(keys) {
@@ -37,7 +38,7 @@ export class Input {
     }
 
     #handleKeyDown = event => {  
-        if (this.constructor.preventKeysSet && this.constructor.preventKeysSet.has(event.code)) {
+        if ((this.constructor as typeof Input).preventKeysSet && (this.constructor as typeof Input).preventKeysSet.has(event.code)) {
             event.preventDefault()
         }
 

@@ -1,6 +1,12 @@
 import {Sprite} from '../entities/sprite.js'
 
 export class SpriteSheet {
+    image
+    imageWidth
+    imageHeight
+    spriteWidth
+    spriteHeight
+    
     constructor({image, imageWidth, imageHeight, spriteWidth, spriteHeight}) {
         this.image = image
         this.imageWidth = imageWidth
